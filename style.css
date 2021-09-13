@@ -1,0 +1,431 @@
+/*  {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 100;
+	font-display: swap;
+}
+
+body {
+	background: #5f5f5f;
+	line-height: 33px;
+	font-size: 16px;
+	color: #555555;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi__bold {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.resume__container {
+	width: 800px;
+	display: flex;
+	/* flex-direction: column; */
+/* margin: 100px auto; */
+/* }s */
+
+/* .resume__container .block__left {
+	width: 300px;
+	background: #97a4a9;
+}
+
+.resume__container .block__left .profile {
+	width: 100%;
+	height: 300px;
+}
+
+.profile img {
+	width: 300px;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.resume__container .block__left .content {
+	padding: 0px 10px;
+}
+.icon img {
+	height: 30px;
+	width: 30px;
+	align-items: center;
+	margin-right: 20px;
+}
+.item a {
+	color: #fff;
+}
+
+.resume__container .title {
+	margin-bottom: 30px;
+}
+
+.resume__container .block__left .bold {
+	color: #fff;
+}
+.resume__container .block__left .regular {
+	color: #fff;
+}
+
+.resume__container .item {
+	padding: 5px;
+	border-bottom: 2px solid #fff;
+}
+
+.resume__container .block__left .item:last-child {
+	border-bottom: 0px;
+}
+
+.resume__container .block__left ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.resume__container .block__left ul li:last-child {
+	margin-bottom: 0px;
+}
+.resume__container .block__left ul li .icon {
+	width: 25px;
+	height: 25px;
+
+	color: #ffffff;
+	border-radius: 50%;
+	margin-right: 25px;
+	font-size: 15px;
+	position: relative;
+} */
+
+/* .resume__container .block__left .icon img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+} */
+/* 
+.resume__container .block__left .resume__myskils ul li {
+	color: #fff;
+	justify-content: space-between;
+}
+
+.resume__container .block__left .resume__myskils ul li .skil__name {
+	width: 25%;
+}
+
+.resume__container .block__left .resume__myskils ul li .skill__progress {
+	width: 60%;
+	margin: 0 5px;
+	height: 5px;
+	background: #d9e9ee;
+	position: relative;
+}
+
+.resume__container .block__left .resume__myskils ul li .skill__per {
+	width: 15%;
+}
+
+.resume__container .block__left .resume__myskils ul li .skill__progress span {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	background: rgb(61, 60, 60);
+}
+
+.resume__container .block__right {
+	width: 520px;
+	background: #fff;
+	padding: 25px;
+}
+
+.resume__container .block__right .bold {
+	color: rgb(13, 13, 114);
+}
+
+.resume__container .block__righ .resume__work ul,
+.resume__container .block__righ .resume__education ul {
+	padding-left: 40px;
+	overflow: hidden;
+}
+
+.resume__container .block__righ ul li {
+	position: relative;
+}
+
+.resume__container .block__righ ul li .date {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	color: black;
+}
+
+.resume__container .block__righ ul li .info {
+	margin-bottom: 20px;
+}
+
+.resume__container .block__righ ul li:last-child .info {
+	margin-bottom: 0px;
+}
+
+.resume__container .block__righ .resume__work ul li::before,
+.resume__container .block__righ .resume__education ul::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -20px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid red;
+}
+
+.resume__container .block__righ .resume__work ul li::after,
+.resume__container .block__righ .resume__education ul li::after {
+	content: "1";
+	position: absolute;
+	top: 2px;
+	height: 115px;
+	background: red;
+}
+
+.resume__container .block__righ .resume__hobby ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.resume__container .block__righ .resume__hobby ul li {
+	width: 80px;
+	height: 80px;
+	border: 2px solid #0bb5f4;
+	border-radius: 50%;
+	position: relative;
+	color: #0bb5f4;
+}
+
+.resume__container .block__righ .resume__hobby ul li i {
+	font-size: 30px;
+}
+
+.resume__container .block__righ .resume__hobby ul li:before {
+	content: "";
+	position: absolute;
+	top: 40px;
+	right: -52px;
+	width: 50px;
+	height: 2px;
+	background: #0bb5f4;
+}
+
+.resume__container .block__righ .resume__hobby ul li:last-child:before {
+	display: none;
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	background: #585c68;
+	font-size: 14px;
+	line-height: 22px;
+	color: #555555;
+}
+
+.bold {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.semi__bold {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.resume__container {
+	width: 800px;
+	height: auto;
+	display: flex;
+	margin: 50px auto;
+}
+
+.resume__container .block__left {
+	width: 280px;
+	background: #7d7f80;
+}
+
+.resume__container .block__left .profile {
+	width: 100%;
+	height: 280px;
+}
+
+.resume__container .block__left .profile img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.resume__container .block__left .resume__content {
+	padding: 0 25px;
+}
+
+.resume__container .title {
+	margin-bottom: 20px;
+}
+
+.resume__container .block__left .bold {
+	color: #fff;
+}
+
+.resume__container .block__left .regular {
+	color: #fff;
+}
+
+.resume__container .item {
+	padding: 25px 0;
+	border-bottom: 2px solid #141616;
+}
+
+.resume__container .block__left .item:last-child,
+.resume .resume_right .item:last-child {
+	border-bottom: 0px;
+}
+
+.resume__container .block__left ul li {
+	display: flex;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+.resume__container .block__left ul li:last-child {
+	margin-bottom: 0;
+}
+
+.resume__container .block__left ul li .icon {
+	width: 35px;
+	height: 35px;
+	background: #fff;
+	color: #111213;
+	border-radius: 50%;
+	margin-right: 15px;
+	font-size: 16px;
+	position: relative;
+}
+
+.resume__container .icon i,
+.resume__container .block__right .resume_hobby ul li i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.resume__container .block__left ul li .data {
+	color: #b1eaff;
+}
+
+.resume__container .block__left .resume_skills ul li {
+	display: flex;
+	margin-bottom: 10px;
+	color: #b1eaff;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.resume__container .block__left .resume__skills ul li .skill__name {
+	width: 25%;
+	color: #fff;
+}
+
+.resume__container .block__left .resume__skills ul li .skill__progress {
+	width: 60%;
+	margin: 0 5px;
+	height: 5px;
+	background: rgb(30, 4, 121);
+	position: relative;
+}
+
+.resume__container .block__left .resume__skills ul li .skill__per {
+	width: 15%;
+}
+
+.resume__container .block__left .resume__skills ul li .skill__progress span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #fff;
+}
+
+.resume__container .block__left .resume__social .semi__bold {
+	color: #fff;
+	margin-bottom: 3px;
+}
+
+.resume__container .block__right {
+	width: 520px;
+	background: #fff;
+	padding: 25px;
+}
+
+.resume__container .block__right .bold {
+	color: #000000;
+}
+
+.resume__container .block__right .resume_work ul,
+.resume__container .block__right .resume_education ul {
+	padding-left: 40px;
+	overflow: hidden;
+}
+
+.resume__container .block__right ul li {
+	position: relative;
+}
+
+.resume__container .block__right ul li .date {
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.date p {
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+
+.resume__container .block__right ul li .info {
+	margin-bottom: 20px;
+}
+
+.resume__container .block__right ul li:last-child .info {
+	margin-bottom: 0;
+}
+
+.resume__container .block__right .resume__work ul li:before,
+.resume__container .block__right .resume__education ul li:before {
+	content: "";
+	position: absolute;
+	top: 7px;
+	left: -15px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #020202;
+}
+
+/* .resume__container .block__right .resume__work ul li:after,
+.resume__container .block__right .resume__education ul li:after {
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -13.5px;
+	width: 2px;
+	height: 115px;
+	background: #121313;
+} */
