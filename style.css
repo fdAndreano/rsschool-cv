@@ -25,7 +25,6 @@ body {
 
 .resume__container {
 	width: 800px;
-	height: auto;
 	display: flex;
 	margin: 0 auto;
 }
@@ -196,13 +195,14 @@ a {
 }
 
 footer {
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
 	background-color: #7d7f80;
+	border-top: 4px solid black;
 }
 
 .footer__year {
@@ -214,19 +214,272 @@ footer {
 	color: black;
 }
 
-.footer__github > a {
+.footer__github a {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
 }
 
-.footer__github > a > i {
+.footer__github a i {
 	margin-right: 10px;
 	color: black;
 }
 
-.footer__rsschool > a > img {
+.footer__rsschool a img {
 	width: 100px;
 	position: relative;
 	top: 3px;
+}
+
+/* @media screen and (max-width: 479px) {
+	.resume__container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.resume__content {
+		width: 100%;
+		display: flex;
+		-ms-flex-direction: row;
+	}
+	.block__right {
+		width: 280px;
+	}
+	footer {
+		width: 520px;
+		margin-left: 140px;
+	}
+} */
+
+/* @media screen and (max-width: 600px) {
+	.resume__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.resume__container .block__left {
+		width: 520px;
+		min-width: 320px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	footer {
+		width: 520px;
+		margin-left: 140px;
+	}
+} */
+
+@media screen and (min-width: 320px) {
+	.resume__container {
+		width: 800px;
+		display: flex;
+		margin: 0 auto;
+	}
+
+	.resume__container .block__left {
+		width: 280px;
+		background: #7d7f80;
+	}
+
+	.resume__container .block__left .profile {
+		width: 100%;
+		height: 280px;
+	}
+
+	.resume__container .block__left .profile img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+	}
+
+	.resume__container .block__left .resume__content {
+		padding: 0 25px;
+	}
+
+	.resume__container .title {
+		margin-bottom: 20px;
+	}
+
+	.resume__container .block__left .bold {
+		color: #fff;
+	}
+
+	.resume__container .block__left .regular {
+		color: #fff;
+	}
+
+	.resume__container .item {
+		padding: 25px 0;
+		border-bottom: 2px solid #141616;
+	}
+
+	.resume__container .block__left .item:last-child,
+	.resume .resume_right .item:last-child {
+		border-bottom: 0px;
+	}
+
+	.resume__container .block__left ul li {
+		display: flex;
+		margin-bottom: 10px;
+		align-items: center;
+	}
+
+	.resume__container .block__left ul li:last-child {
+		margin-bottom: 0;
+	}
+
+	.resume__container .block__left ul li .icon {
+		width: 35px;
+		height: 35px;
+		background: #fff;
+		color: #111213;
+		border-radius: 50%;
+		margin-right: 15px;
+		font-size: 16px;
+		position: relative;
+	}
+
+	.resume__container .icon i,
+	.resume__container .block__right .resume_hobby ul li i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.resume__container .block__left ul li .data {
+		color: #b1eaff;
+	}
+
+	.resume__container .block__left .resume_skills ul li {
+		display: flex;
+		margin-bottom: 10px;
+		color: #b1eaff;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.resume__container .block__left .resume__skills ul li .skill__name {
+		width: 25%;
+		color: #fff;
+	}
+
+	.resume__container .block__left .resume__skills ul li .skill__progress {
+		width: 60%;
+		margin: 0 5px;
+		height: 5px;
+		background: rgb(30, 4, 121);
+		position: relative;
+	}
+
+	.resume__container .block__left .resume__skills ul li .skill__per {
+		width: 15%;
+	}
+
+	.resume__container .block__left .resume__skills ul li .skill__progress span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		background: #fff;
+	}
+
+	.resume__container .block__left .resume__social .semi__bold {
+		color: #fff;
+		margin-bottom: 3px;
+	}
+
+	.resume__container .block__right {
+		width: 520px;
+		background: #fff;
+		padding: 25px;
+	}
+
+	.resume__container .block__right .bold {
+		color: #000000;
+	}
+
+	.resume__container .block__right .resume_work ul,
+	.resume__container .block__right .resume_education ul {
+		padding-left: 40px;
+		overflow: hidden;
+	}
+
+	.resume__container .block__right ul li {
+		position: relative;
+	}
+
+	.resume__container .block__right ul li .date {
+		font-size: 16px;
+		font-weight: 500;
+		margin-bottom: 15px;
+	}
+	.date p {
+		color: #fff;
+	}
+	a {
+		color: #fff;
+	}
+
+	.resume__container .block__right ul li .info {
+		margin-bottom: 20px;
+	}
+
+	.resume__container .block__right ul li:last-child .info {
+		margin-bottom: 0;
+	}
+
+	.resume__container .block__right .resume__work ul li:before,
+	.resume__container .block__right .resume__education ul li:before {
+		content: "";
+		position: absolute;
+		top: 7px;
+		left: -15px;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		border: 2px solid #020202;
+	}
+
+	footer {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px;
+		background-color: #7d7f80;
+		border-top: 4px solid black;
+	}
+
+	.footer__year {
+		width: 100px;
+		text-align: center;
+		font-size: 37px;
+		line-height: 37px;
+		font-weight: bold;
+		color: black;
+	}
+
+	.footer__github a {
+		color: black;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.footer__github a i {
+		margin-right: 10px;
+		color: black;
+	}
+
+	.footer__rsschool a img {
+		width: 100px;
+		position: relative;
+		top: 3px;
+	}
 }
